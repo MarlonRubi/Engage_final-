@@ -1,0 +1,63 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+
+header{
+    background-color: #000;
+}
+
+header .bg-light{
+    background-color: transparent !important;
+}
+
+header img{
+    width: 150px;
+}
+
+#hero{
+    background-image: url("img/bg-main.jpg");
+    background-size: cover;
+    background-position: top center;
+    padding: 10% 0%;
+}
+
+#hero h6{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+#hero h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+#hero p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.7;
+}
+
+#hero .btn{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 20px;
+}
+
+#hero .btn-dark{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+#hero .btn-dark:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#hero .bg-light{
+    background-color: #fff;
+}
